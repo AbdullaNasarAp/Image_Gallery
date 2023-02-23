@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193490431496",
+    "project_id": "thebrewapps-8be47",
+    "storage_bucket": "thebrewapps-8be47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193490431496:android:390b435a3aa42d649bebbd",
+        "android_client_info": {
+          "package_name": "com.example.assignment_thebrewapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193490431496-2faftlhp9olfovbo5ghhf0b5av9269qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignment_thebrewapps",
+            "certificate_hash": "e62bbc9c8fdb33acb9b6802832b73d9f02a56e97"
+          }
+        },
+        {
+          "client_id": "193490431496-3edocglt0tg17g5j8tg3pmi7r52n8u3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa5gKz90RJTbbsrJgcyZq1w3UUc-HnOh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193490431496-3edocglt0tg17g5j8tg3pmi7r52n8u3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
