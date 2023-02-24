@@ -1,3 +1,4 @@
+import 'package:assignment_thebrewapps/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -7,8 +8,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Brew Apps"),
-        centerTitle: true,
+        title: const TextTitle(
+          title: "Gallery",
+          ls: 0,
+          fontwght: FontWeight.bold,
+          fontsz: 25,
+        ),
       ),
     );
   }
