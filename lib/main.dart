@@ -1,4 +1,6 @@
+import 'package:assignment_thebrewapps/controller/get_image_controller.dart';
 import 'package:assignment_thebrewapps/controller/login_controller.dart';
+import 'package:assignment_thebrewapps/controller/search_controller.dart';
 import 'package:assignment_thebrewapps/controller/signup_controller.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +23,8 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (context) => LoginProvider()),
         ChangeNotifierProvider(create: (context) => SignupProvider()),
+        ChangeNotifierProvider(create: (context) => HomeProvider()),
+        ChangeNotifierProvider(create: (context) => SearchProvider()),
       ],
       child: MaterialApp(
         home: LoginScreen(),
